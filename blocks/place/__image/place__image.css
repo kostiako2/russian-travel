@@ -1,0 +1,14 @@
+.place__image {
+    margin-top: 32px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width:768px) {
+    
+    .place__image {
+        margin: 0;
+        grid-area: image;
+    }
+    
+}

@@ -14,3 +14,36 @@
     font-weight: 400;
     font-display: swap;
   }
+  @font-face {
+     font-family: 'Inter';
+     font-style:  normal;
+     font-weight: 800;
+     font-display: swap;
+     src: url("Inter-ExtraBold.woff2?v=3.19") format("woff2"),
+          url("Inter-ExtraBold.woff?v=3.19") format("woff");
+   }
+   @font-face {
+     font-family: 'Inter';
+     font-style:  italic;
+     font-weight: 800;
+     font-display: swap;
+     src: url("Inter-ExtraBoldItalic.woff2?v=3.19") format("woff2"),
+          url("Inter-ExtraBoldItalic.woff?v=3.19") format("woff");
+   }
+
+   @font-face {
+     font-family: 'Inter';
+     font-style:  normal;
+     font-weight: 900;
+     font-display: swap;
+     src: url("Inter-Black.woff2?v=3.19") format("woff2"),
+          url("Inter-Black.woff?v=3.19") format("woff");
+   }
+   @font-face {
+     font-family: 'Inter';
+     font-style:  italic;
+     font-weight: 900;
+     font-display: swap;
+     src: url("Inter-BlackItalic.woff2?v=3.19") format("woff2"),
+          url("Inter-BlackItalic.woff?v=3.19") format("woff");
+   }

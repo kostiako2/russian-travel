@@ -1,0 +1,30 @@
+@import url('./__background/cover__background.css');
+@import url('./__overlay/cover__overlay.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__title/cover__title.css');
+
+.cover {
+    margin-top:66px;
+    width: 100%;
+    background-image: url("../../images/cover-trains.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover::before {
+    opacity: 0;
+}
+
+.cover:hover {
+    background-color:  #2A2C2F;
+    opacity: 0.3;
+}
+
+
+@media (min-width:768px) {
+    .cover {
+        
+        margin-top: 90px;
+    }
+}
