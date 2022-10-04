@@ -3,7 +3,7 @@
     background-image: url("../../../images/cover-trains.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
 }
 
 .cover__background::before {
