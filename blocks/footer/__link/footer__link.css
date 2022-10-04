@@ -20,6 +20,7 @@
      }
     .footer__link:nth-of-type(5n) {
         margin-right: 0;
+        margin-bottom: 0;
     }
  }
 
