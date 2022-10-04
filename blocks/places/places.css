@@ -7,11 +7,9 @@
    gap:50px;  
 }
 
-.places:first-of-type {
+.places:last-of-type {
     padding: 0;
     margin: 0;
-
-
 }
 
 @media (min-width:768px) {

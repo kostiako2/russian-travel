@@ -1,3 +1,35 @@
 .cover__background {
-    
+    margin-top:66px;
+    background-image: url("../../../images/cover-trains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+.cover__background::before {
+    opacity: 0;
+}
+
+.cover__background:hover {
+    background-color:  #2A2C2F;
+    opacity: 0.3;
+}
+
+
+@media (min-width:768px) {
+    .cover__background {
+        margin-top: 90px;
+    }
+}
+
+@media (min-width:1024px) {
+    .cover__background {
+        margin-top: 92px;
+    }
+}
+
+@media (min-width:1280px) {
+    .cover__background {
+        margin: 92px 48px 0;
+    }
 }
