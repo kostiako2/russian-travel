@@ -4,7 +4,7 @@
    list-style: none;
    display: flex;
    flex-direction: column;
-   gap:50px;  
+   gap: 73px;  
 }
 
 .places:last-of-type {
@@ -15,6 +15,7 @@
 @media (min-width:768px) {
     .places{
         margin:88px 24px 0;
+        gap:80px;
     }
     
 }
@@ -29,6 +30,7 @@
 @media (min-width:1280px) {
     .places{
         margin:92px 148px 0;
+        
     }
     
 }
