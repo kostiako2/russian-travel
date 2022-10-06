@@ -4,7 +4,7 @@
    list-style: none;
    display: flex;
    flex-direction: column;
-   gap: 73px;  
+   gap: 50px;  
 }
 
 .places:last-of-type {
